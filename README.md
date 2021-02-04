@@ -7,7 +7,7 @@ This project supports the rebuild of my logitech wingman extreme joystick.
      This project uses the Joystick library from; 
           https://github.com/MHeironimus/ArduinoJoystickLibrary
 
-     I elected to manually scan the button matrix using the example at,
+     I am manually scanning the button matrix using the example at,
         https://www.baldengineer.com/arduino-keyboard-matrix-tutorial.html
      pretty much verbatim. As stated on that site there are optimizations possible
      but it is working pretty well now.
