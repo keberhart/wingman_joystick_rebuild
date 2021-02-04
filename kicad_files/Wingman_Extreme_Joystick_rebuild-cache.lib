@@ -1,0 +1,155 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DigiKey_Tactile_Switches_B3F-1000
+#
+DEF DigiKey_Tactile_Switches_B3F-1000 S 0 40 Y Y 1 F N
+F0 "S" 0 200 60 H V C CNN
+F1 "DigiKey_Tactile_Switches_B3F-1000" 0 -200 60 H V C CNN
+F2 "digikey-footprints:Switch_Tactile_THT_B3F-1xxx" 200 200 60 H I L CNN
+F3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" 200 300 60 H I L CNN
+F4 "SW400-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "B3F-1000" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Tactile Switches" 200 700 60 H I L CNN "Family"
+F8 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/omron-electronics-inc-emc-div/B3F-1000/SW400-ND/33150" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH TACTILE SPST-NO 0.05A 24V" 200 1000 60 H I L CNN "Description"
+F11 "Omron Electronics Inc-EMC Div" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -60 0 10 0 1 0 N
+C 60 0 10 0 1 0 N
+P 2 0 1 0 -100 100 -100 -100 N
+P 2 0 1 0 -70 0 -100 0 N
+P 2 0 1 0 -70 50 70 50 N
+P 2 0 1 0 100 -100 100 100 N
+P 2 0 1 0 100 0 70 0 N
+P 2 1 1 0 -40 110 35 110 N
+P 2 1 1 0 0 110 0 50 N
+X ~ 1 -200 100 100 R 50 50 1 1 P
+X ~ 2 -200 -100 100 R 50 50 1 1 P
+X ~ 3 200 100 100 L 50 50 1 1 P
+X ~ 4 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Digikey_Magnetic_sensors_A1324LUA-T
+#
+DEF Digikey_Magnetic_sensors_A1324LUA-T U 0 40 Y Y 1 F N
+F0 "U" -200 300 60 H V C CNN
+F1 "Digikey_Magnetic_sensors_A1324LUA-T" 100 -300 60 H V L CNN
+F2 "digikey-footprints:Hall_Sensor_SIP-3_A132_LUA-T" 200 200 60 H I L CNN
+F3 "https://www.allegromicro.com/~/media/Files/Datasheets/A1324-5-6-Datasheet.ashx" 200 300 60 H I L CNN
+F4 "620-1432-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "A1324LUA-T" 200 500 60 H I L CNN "MPN"
+F6 "Sensors, Transducers" 200 600 60 H I L CNN "Category"
+F7 "Magnetic Sensors - Linear, Compass (ICs)" 200 700 60 H I L CNN "Family"
+F8 "https://www.allegromicro.com/~/media/Files/Datasheets/A1324-5-6-Datasheet.ashx" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/allegro-microsystems-llc/A1324LUA-T/620-1432-ND/2728144" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SENSOR HALL EFFECT ANALOG 3SIP" 200 1000 60 H I L CNN "Description"
+F11 "Allegro MicroSystems, LLC" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 300 200 -100 -200 0 1 0 f
+X VCC 1 0 300 100 D 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X VOUT 3 400 0 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# Diode_1N4148
+#
+DEF Diode_1N4148 D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Diode_1N4148" 0 -100 50 H V C CNN
+F2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" 0 -175 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS 1N4448 1N4149 1N4151 1N914 BA243 BA244 BA282 BA283 BAV17 BAV18 BAV19 BAV20 BAV21 BAW75 BAW76 BAY93
+$FPLIST
+ D*DO?35*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Sparkfun_boards_SPARKFUN_PRO_MICRO
+#
+DEF Sparkfun_boards_SPARKFUN_PRO_MICRO B 0 40 Y Y 1 L N
+F0 "B" -350 700 45 H V L BNN
+F1 "Sparkfun_boards_SPARKFUN_PRO_MICRO" -350 -750 45 H V L BNN
+F2 "SPARKFUN_PRO_MICRO" 0 800 20 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "XXX-00000" 0 850 60 H V C CNN
+$FPLIST
+ *SPARKFUN_PRO_MICRO*
+$ENDFPLIST
+DRAW
+P 5 1 1 0 -350 650 -350 -650 350 -650 350 650 -350 650 f
+X TXO 1 -450 550 100 R 40 40 1 1 B
+X 7 10 -450 -350 100 R 40 40 1 1 B
+X 8 11 -450 -450 100 R 40 40 1 1 B
+X *9 12 -450 -550 100 R 40 40 1 1 B
+X *10 13 450 -550 100 L 40 40 1 1 B
+X 11(MOSI) 14 450 -450 100 L 40 40 1 1 B
+X 12(MISO) 15 450 -350 100 L 40 40 1 1 B
+X 13(SCK) 16 450 -250 100 L 40 40 1 1 B
+X A0 17 450 -150 100 L 40 40 1 1 B
+X A1 18 450 -50 100 L 40 40 1 1 B
+X A2 19 450 50 100 L 40 40 1 1 B
+X RXI 2 -450 450 100 R 40 40 1 1 B
+X A3 20 450 150 100 L 40 40 1 1 B
+X VCC 21 450 250 100 L 40 40 1 1 W
+X RESET 22 450 350 100 L 40 40 1 1 B
+X GND 23 450 450 100 L 40 40 1 1 W
+X RAW 24 450 550 100 L 40 40 1 1 W
+X GND 3 -450 350 100 R 40 40 1 1 W
+X GND 4 -450 250 100 R 40 40 1 1 W
+X 2 5 -450 150 100 R 40 40 1 1 B
+X *3 6 -450 50 100 R 40 40 1 1 B
+X 4 7 -450 -50 100 R 40 40 1 1 B
+X *5 8 -450 -150 100 R 40 40 1 1 B
+X *6 9 -450 -250 100 R 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Switch_SW_SPST
+#
+DEF Switch_SW_SPST SW 0 0 Y N 1 F N
+F0 "SW" 0 125 50 H V C CNN
+F1 "Switch_SW_SPST" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+P 2 0 0 0 -60 10 60 70 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
